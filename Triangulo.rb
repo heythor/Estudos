@@ -10,15 +10,21 @@ def verificarTrinagulo(num1, num2, num3)
     soma1 = num1 + num2
     soma2 = num1 + num3
     soma3 = num2 + num3
+    resultado = ""
 
     if soma1 > num3 && soma2 > num2 && soma3 > num1
 
-        puts"É um Triangulo"
+         resultado = "É um Triangulo"
         
     else
-        puts"Não é um Triangulo"
+
+       resultado = "Não é um Triangulo"
 
     end
+
+    return resultado
+
+
 end
 
 puts verificarTrinagulo(num1, num2, num3)
