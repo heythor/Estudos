@@ -27,3 +27,5 @@ def verificar(soma, numero)
 end
 
 puts verificar(soma, numero)
+
+teste
